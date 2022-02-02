@@ -2,27 +2,31 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+/* orange font color */
 #orange{
     color: orange;
 }
+/* flex */
 .flexiblecontainer{
     display: flex;
     padding: 2%;
     padding-bottom: 5%;
 }
+/* for more than one items per segment */
 .half-width{
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
 }
+/* for image calibration */
 .half-width img{
     width: 100%;
 }
+/* for button */
 .link-button{
     text-decoration: none;
     background-color: orangered;
     border-radius: 30px;
-    border-style: round;
     background-image: linear-gradient(rgb(236, 200, 133), rgb(228, 33, 33));
     color: white;
     font-weight: 700;
@@ -36,22 +40,83 @@ body{
     cursor: pointer;
     font-size: 14px;
 }
+.link-button:hover{
+    opacity: .7;
+}
+/* for first section */
 .firstbanner{
     background-image: url(/images/Frame59.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* for second section */
 .secondbanner{
     background-image: url(/images/Frame56.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: 100vmin; */
 }
+/* third section header */
 .recipie{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 50em;
+}
+/* third section items */
+.recipieitem{
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 15px;
+    border: 0;
+    word-wrap: break-word;
+    box-shadow: 0 0 20px gray;
+    background-image: linear-gradient(grey);
+    padding: 5px;
+}
+/* third section image calibration */
+.recipieimg{
+    width: 100%;
+}
+/* fourth section */
+.fourthbanner{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+/* div items */
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px gray;
+    border: 0;
+}
+/* items alignment */
+.fourthbanner{
+    padding-top: 5em;
+}
+.subcount{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #00001a;
+    padding-bottom: 50px;
+    padding-top: 2%;
+}
+footer p{
+    color: white;
+}
+#cgrey{
+    color: gray;
 }
