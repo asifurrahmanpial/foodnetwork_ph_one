@@ -45,14 +45,14 @@ body{
 }
 /* for first section */
 .firstbanner{
-    background-image: url(/images/Frame59.jpg);
+    background-image: url(/images/firstframe.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 /* for second section */
 .secondbanner{
-    background-image: url(/images/Frame56.jpg);
+    background-image: url(/images/secondframe.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
